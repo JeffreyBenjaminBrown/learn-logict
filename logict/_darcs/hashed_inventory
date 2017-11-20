@@ -1,0 +1,31 @@
+pristine:095f8bc81fbd6a1ae196a08819bfce29c73cd5638e915a1591c488a27f2a8351
+Starting with inventory:
+0000001663-c09f28eebfd159251a23a848711d5d26bcd3f7a304527b8fe4c79197edcc4e96
+[TAG 0.6.0.1
+dan.doel@gmail.com**20130814013708
+ Ignore-this: 6346e2d99ab69c0041f03db90d73bb58
+] 
+hash: 0000001007-f72a3cc865e4b153486ac526c5b02db106494d23274ebbe62cf57462ad0c5e19
+[Eliminate failable patterns
+Roman Cheplyaka <roma@ro-che.info>**20140209223255
+ Ignore-this: 3755ec89272e7fd5030c185459e88870
+ 
+ They rely on 'fail' being 'const mzero', which is true for LogicT but is not a
+ requirement for MonadLogic and can be false for other monads.
+] 
+hash: 0000000555-5f4192361f2ac8b3d4d20760ffbfc3b60bca4fa6543a301f0c4d22a78c90d50a
+[Version bump for Roman's changes
+dan.doel@gmail.com**20140209224015
+ Ignore-this: 24fea42304637cff866b81b2618f0ee8
+] 
+hash: 0000000508-0280320b50e8a2f585afa667de56903c733a5baee3ba35a4a17e04690e1abccd
+[Missed an existing version bump
+dan.doel@gmail.com**20140209224617
+ Ignore-this: ca13997447a3356aa072634fab9eaa8c
+] 
+hash: 0000000204-3487b1afe46d25e24e08a28b1be62cfea1b3b42a7d9e032fb9238f8a337d5e77
+[Modernized the cabal file a bit
+dan.doel@gmail.com**20140209225849
+ Ignore-this: bdbdde274ae1ff3922eecad036eeb27e
+] 
+hash: 0000002250-e3c586ade9a959fc28ae6cbbd6b01b9b06ed620c2d8c5c6b8ec173ff01c133d4
